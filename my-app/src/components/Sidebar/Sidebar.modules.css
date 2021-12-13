@@ -1,0 +1,16 @@
+.nav {
+    grid-area: s;
+    background-color: lightseagreen;
+    padding: 20px;
+    width: 300px;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.myFriend {
+    padding: 20px 100px;
+    color: white;
+}

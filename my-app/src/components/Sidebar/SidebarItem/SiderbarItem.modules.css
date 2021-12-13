@@ -1,0 +1,19 @@
+.sidebar-container {
+    display: inline-block;
+    padding: 5px;
+}
+
+.text a {
+    color: white;
+    padding: 17px;
+}
+
+.ava-friend {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+}
+
+.namePlace {
+    width: 80px;
+}

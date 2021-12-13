@@ -1,1 +1,1 @@
-# Social-network-react
+# Social-networks-react
