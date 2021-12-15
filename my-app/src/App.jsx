@@ -22,8 +22,7 @@ function App(props) {
               element={
                 <Profile
                   state={props.state.profilePage}
-                  updateNewPostText={props.updateNewPostText}
-                  addPost={props.addPost}
+                  dispatch={props.dispatch}
                 />
               }
             />
@@ -32,8 +31,7 @@ function App(props) {
               element={
                 <Profile
                   state={props.state.profilePage}
-                  updateNewPostText={props.updateNewPostText}
-                  addPost={props.addPost}
+                  dispatch={props.dispatch}
                 />
               }
             />
