@@ -20,19 +20,13 @@ function App(props) {
             <Route
               path="/"
               element={
-                <Profile
-                  state={props.state.profilePage}
-                  dispatch={props.dispatch}
-                />
+                <Profile state={props.state.profilePage} store={props.store} />
               }
             />
             <Route
               path="/profile"
               element={
-                <Profile
-                  state={props.state.profilePage}
-                  dispatch={props.dispatch}
-                />
+                <Profile state={props.state.profilePage} store={props.store} />
               }
             />
             <Route
